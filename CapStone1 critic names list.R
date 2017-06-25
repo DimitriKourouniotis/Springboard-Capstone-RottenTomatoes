@@ -45,7 +45,7 @@ critics_review_page <- paste("https://www.rottentomatoes.com/critic/", paste(mas
 
 
 write.csv(critics_review_page, file = "critic_authors_urls.csv")
-write.csv(page_count_vector, file = "page_counts.csv")
+
 #create data set of movie titles and reviews
 #detect number of pages of reviews
 
@@ -132,14 +132,7 @@ write.csv(critics_urls_ds , file = "critics_urls_ds.csv")
 
 #### ---- write critic urls list to csv
 write.csv(critic_review_urls , file = "critic_review_urls.csv")
-
-
-
-
-
-
-
-
+write.csv(page_count_vector, file = "page_counts.csv")
 
 #### footnote: 
 ####----- convert accented characters
