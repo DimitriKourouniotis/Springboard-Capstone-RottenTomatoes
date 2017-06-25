@@ -1,6 +1,9 @@
 ### read rotten tomatoes table : review, Title , review date posted
-
-### .small , .movie-link , #criticsReviewsChart_main td:nth-child(1)
+### >12,000 URLS
+### needs to be done over several iterations 
+### 1. some web pages were broken or being updated with reviews and the webscraping exited. I was never able to make an error free run 
+### 2. CSV size limit (I did not know about saving as RDS file)
+### 3. The whole data collection for 12,000 URLs took about 11 hours
 
 install.packages("rvest")
 library(rvest)
