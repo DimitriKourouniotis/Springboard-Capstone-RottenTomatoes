@@ -1,5 +1,8 @@
 #########################
 # clean up newdata 
+# convert all mis typed letter grades into the same format
+# convert all 4/5 "stars" codes to just 4/5
+# deduce and place in missing denominators where possible
 #########################
 #critic_score_and_image_1 errors
 #
@@ -51,7 +54,7 @@ clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="11 Minut"] <- 
 clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="12 Monkeys"] <- 1995
 clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="12:08 East of Bucharest"] <- 2007
 clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="13 Ghosts"] <- 2001
-clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="1732 Høtten"] <- 2000
+clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="1732 HÃ¸tten"] <- 2000
 clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="18 Years Later"] <- 2010
 clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="14 no yoru"] <- 2016
 clean_tMeterScore_ds$movie_year[clean_tMeterScore_ds$movie_year=="20th Century Boys 1: Beginning of the End"] <- 2008
