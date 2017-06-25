@@ -1,6 +1,7 @@
 # cleaning up the dataset of Movie Critics reviews "unique_reviews" & 
 # cleaning up Movie table of clean_tMeterScore_ds
 
+unique_reviews <- readRDS("unique_reviews.RDS")
 view(unique_reviews)
 
 ## remove '-' from publication_2 variable
