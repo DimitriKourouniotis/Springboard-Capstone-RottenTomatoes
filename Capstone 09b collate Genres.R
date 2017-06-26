@@ -1,4 +1,6 @@
 # Collate commonality 
+## which genres are the most common 
+## which genres cluster together
 
 saveRDS(RT.train,"RT_train.RDS")
 saveRDS(RT.train.actor_1, "RT_train_actor_1.RDS")
