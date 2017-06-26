@@ -1,3 +1,6 @@
+## In the previous srcipt file I had not accounted for spliting the data into training and test
+## I had aggregated the career nominations for the total years covered
+## this script undoes that.
 ## Deconstructing Oscars to get no 2015 or 2016 data
 
 # create lookup of oscars data to match title to year
