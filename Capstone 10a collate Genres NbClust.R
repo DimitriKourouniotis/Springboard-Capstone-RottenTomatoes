@@ -1,3 +1,5 @@
+# do cluster analysis by Genre
+
 head(movies)
 
 movies_for_clust_analysis <- movies[,c(1,5:25)]
