@@ -1,5 +1,6 @@
 # do cluster analysis by Genre
-
+# and confusion table
+# predict and ROC curve
 head(movies)
 
 movies_for_clust_analysis <- movies[,c(1,5:25)]
